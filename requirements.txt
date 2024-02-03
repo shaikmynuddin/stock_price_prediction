@@ -4,3 +4,4 @@ plotly==4.14.3
 scikit-learn==0.24.2
 numpy==1.20.3
 pandas==1.2.4
+altair==4.1.0
