@@ -15,4 +15,4 @@ RUN pip install --upgrade pip && \
 COPY . .
 
 # Specify the command to run on container start
-CMD ["streamlit", "run", "your_app_file.py"]
+CMD ["streamlit", "run", "eee.py"]
