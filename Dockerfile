@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
-# Copy the content of the local src directory to the /app directory
+# Copy the content of the local directory to the /app directory
 COPY . .
 
 # Specify the command to run on container start
